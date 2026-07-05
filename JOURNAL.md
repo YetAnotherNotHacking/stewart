@@ -65,4 +65,29 @@ https://raw.org/research/inverse-kinematics-of-a-stewart-platform/
 
 I found this awesome website, with a super awesome article detailing the inverse kinematics, not only this, it allowed me to easily tweak the settings of the control arms and driving rod lengths. This gave valuable insight, as I now understand how the length effects it. I spent about 10 minutes looking a little bit into their code (which I understood none of :sob:) as well as playing with the length of the control arms.  From looking at it. the only effect that they really have is the range of motion that your platform has. For example, short control arms means you are only able to move your platform a little bit, but the lack of precision of the servos is accounted for a little bit better, and with longer ones, any error of the servos is amplified but you get decently larger range of motion. I also noticed if they are too long, they are able to collide with eachother. So next, I am going to find step files for the servo horns, and model a control arm that maximizes the achievable positions of the system.
 
-** Total time spent: 4.3 hours **
+<img width="310" height="286" alt="{CC1C07BD-DBCB-4EA6-AB8A-6E77BAE61B1C}" src="https://github.com/user-attachments/assets/5f791651-739b-435b-8018-1eb668a55832" />
+
+Hmmmmm... those are going to collide at this size....
+Luckily I made everything intent driven, so it will simply be changing a few numbers to change everything. Still sucks though.
+
+<img width="560" height="424" alt="{1E59FDD9-F150-4E86-BC50-04DC1E2669FB}" src="https://github.com/user-attachments/assets/e1cd78e4-a989-48ac-8ffd-a86c432f2a17" />
+
+Fusion is testing my pacience. It broke the entire model for the base, I spent a bit fixing that. Some of the geometry sketches for the mounting holes were constrained wrongly when they were copied between the sketches, and a lot of them just decided they want to fail to compute. Then, after fixing all of the base, I tried updating the model just to see the damage, and was greeted with this wonderful piece of modern artwork (slop) that I will now have to spend my time fixing. Delightful!
+
+<img width="428" height="322" alt="{CC3863F8-A4AC-4C55-9D65-8D3235942493}" src="https://github.com/user-attachments/assets/7e1db747-0ee0-4526-bcc3-a7a32252f542" />
+
+I will first fix this top plate, then reconstrain everything again. For me this feels less overwhelming then fixing a ton of small errors.
+
+<img width="580" height="361" alt="{464E0E61-C5F8-4216-B478-98CCD330A679}" src="https://github.com/user-attachments/assets/c5b0fe2a-edce-4309-8c18-dfbe59b7e422" />
+
+Intent driven for the win :100: I love intent driven :heart:
+
+The top was much easier to fix since I did everything properly. It was changing about 4 numbers between 2 sketches and everything was all good. I will now re insert and joint all of the servos together.
+
+I also verified that the servos have the required range of motion, they seem to be 360 which is not standard for these servos to my understanding.
+
+<img width="312" height="254" alt="{35CF77CF-9B23-4C36-8AD6-604776D82AB0}" src="https://github.com/user-attachments/assets/68f3fc06-49b9-4c58-b9fb-240b28755bd3" />
+
+I now have all of the things put on there.
+
+** Total time spent: 4.9 hours **
