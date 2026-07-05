@@ -90,4 +90,39 @@ I also verified that the servos have the required range of motion, they seem to 
 
 I now have all of the things put on there.
 
-** Total time spent: 4.9 hours **
+<img width="448" height="325" alt="{0F38C60F-6E5E-4631-A7CB-6289051E86CA}" src="https://github.com/user-attachments/assets/9913210d-3c53-4550-915a-9404a5165fb9" />
+
+Here is the hole that the servo horn is going to get put on.
+
+<img width="372" height="292" alt="{7766989E-C96C-4622-A41C-EEDB0266B852}" src="https://github.com/user-attachments/assets/8cc73bae-bf56-4184-b5a8-8673476b8f0a" />
+
+I realized I forgot the way to screw it in, this is what I came up with. The m3 screw that is included will be too short, so I am going to replace it with one of my own, longer ones. I may also improve this geometry, but my printer is probably too crap for it to matter anyway.
+
+<img width="489" height="112" alt="{7359E234-FEF2-4035-8B6E-4F17F7F43342}" src="https://github.com/user-attachments/assets/9f63026c-ede0-4373-8aa7-83e1d008d1d2" />
+
+I made the arm a little thinner, it was really thick, and it will be in petg so I know the strength is not going to be an issue.
+
+<img width="419" height="231" alt="{42FDEA49-88B1-4488-A795-8FD30214A6F2}" src="https://github.com/user-attachments/assets/cdaac48a-ed82-4e23-a56d-8a9b3b2235a4" />
+
+I have continued to optimize this for the control rod attachment, I made sure that the fixtures will attach as best as possible. I am still a little unsure of how it will all end up factoring together, so I will try and make the push rods next just to see what they are going to look like roughly.
+
+<img width="432" height="390" alt="{0284CCE8-381B-44F2-9D7C-2662C3E2D7CF}" src="https://github.com/user-attachments/assets/68293eee-038b-458a-bf43-25bdb2c31e8f" />
+
+Man...... these pushrods are really thin aren't they.....
+Im sure it wont be a problem
+
+https://www.amazon.com/HobbyPark-Adjustable-Connector-Pushrods-Replacement/dp/B08CBSWMR5/141-2591928-2634929?psc=1
+
+Above are the pushrods that I am intending to get btw. I also had to learn how to use the sweep tool to make them in fusion :sob:
+
+<img width="396" height="317" alt="{E34BBB38-DA87-4670-9158-C333024C7C63}" src="https://github.com/user-attachments/assets/4a601bb5-5c5f-46b4-8cea-2587b3f65aeb" />
+
+I may end up shortening the control rods in real life if they aren't rigid enough. They look like they will fail fast honestly. I also worry that once they are bent, that they aren't going to be easy to unbend and get working again.
+
+Sorry for big dev log today. It is currently the next day actually, so this is technically multiple days of work.
+
+I also made a bom, this was a few days ago when I was still planning the rough idea of the project out, but it is still unlogged work.
+
+https://docs.google.com/document/d/1bmJ8n-eDoXSdFWSxfQN4pvn6DaG_fgnzeeZT4vmXuGE/edit?usp=sharing
+
+** Total time spent: 5.9 hours **
