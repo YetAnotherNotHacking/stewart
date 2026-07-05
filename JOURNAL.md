@@ -49,5 +49,20 @@ And here it is in the main assembly.
 
 Looking at where the servo attaches, it seems it will be nessecary for me to drop down the plate a little more for it to be thick enough on the bottom. I will also need to raise it roughly a millimeter on the top for more material there as well. It sucks that there is no way to print this that makes it so that the screw isnt going to be splitting the layers apart.
 
+<img width="384" height="264" alt="{193AC73F-C306-4EBB-A3E5-E983F9CDB948}" src="https://github.com/user-attachments/assets/83e2f307-0682-451f-8221-bd57ab24e726" />
 
-** Total time spent: 3.5 hours **
+I have now polished the part.
+
+<img width="337" height="254" alt="{ACE63CB6-6EF3-4794-8CF9-CCE3B20B8174}" src="https://github.com/user-attachments/assets/83910207-7a7e-4f1d-bc42-ac6367813595" />
+
+The screw holes for the servos are now properly in place and have sufficient thickness in the places where it's needed.
+
+<img width="478" height="376" alt="{DC22E7E0-B3A2-44E5-8347-32755850A53D}" src="https://github.com/user-attachments/assets/957169c0-e7cb-46af-842b-eec306910307" />
+
+This is the overall look now. I will next move onto the part of designing the control arms, but I first want to do a little bit of research to figure out how the length/other factors changes the behaviour.
+
+https://raw.org/research/inverse-kinematics-of-a-stewart-platform/
+
+I found this awesome website, with a super awesome article detailing the inverse kinematics, not only this, it allowed me to easily tweak the settings of the control arms and driving rod lengths. This gave valuable insight, as I now understand how the length effects it. I spent about 10 minutes looking a little bit into their code (which I understood none of :sob:) as well as playing with the length of the control arms.  From looking at it. the only effect that they really have is the range of motion that your platform has. For example, short control arms means you are only able to move your platform a little bit, but the lack of precision of the servos is accounted for a little bit better, and with longer ones, any error of the servos is amplified but you get decently larger range of motion. I also noticed if they are too long, they are able to collide with eachother. So next, I am going to find step files for the servo horns, and model a control arm that maximizes the control space of the system.
+
+** Total time spent: 4.3 hours **
