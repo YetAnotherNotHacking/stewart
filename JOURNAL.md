@@ -134,4 +134,9 @@ I speant the first 40 minutes today working on the top platform that the plate w
 
 Above is the image of what that looks like in the overall design. I cant decide if I am going to bend the push rods like shown, or if I am going to take advantage of the link things that come in the kit of them. The kit isnt super clear about their size so I dont know how to cad for them without having that. I have a place to either bend the wire or put a bolt, depending on what I end up doing.
 
+Youtube of cad, stopped trying lapse because it NEVER works. Sorry for 1x speed, and weird aspect ratio (peak framework).
+https://www.youtube.com/watch?v=UD7uxmYwpVk
+
+I will now look into how I can implement the kinematics engine into python.
+
 ** Total Time Spent: 0.75 hours **
