@@ -139,4 +139,56 @@ https://www.youtube.com/watch?v=UD7uxmYwpVk
 
 I will now look into how I can implement the kinematics engine into python.
 
-** Total Time Spent: 0.75 hours **
+For working on the kinematics, I need to first get some of the main parameters for the control, those are: horn length, rod length, base radius and base raduis outer, platform radius, platform radius outer, shaft distance, anchor distance. (disclosure: I am getting help from Gemini to understand the kinematics, as well as refferencing the stewart.js from the web demo I talked about yesterday. I don't understand a majority of the math so I am seeking LLM assistance, everything else I will be writing myself.)
+
+Here are the values I have measured from my model (note: all in mm)
+
+```python
+horn_length = 82.50
+rod_length = 169.00
+base_radius = 97.342
+base_radius_outer = 90.00
+platform_radius = 81.293
+platform_radius_outer = 123.198
+shaft_distance = 30.00
+anchor_distance = 112.50
+```
+
+Horn length: 
+
+<img width="584" height="404" alt="{3A344BA8-43A7-4DE4-A1C0-9EBD12153CDD}" src="https://github.com/user-attachments/assets/d5237ab2-3c31-46b6-9f30-276773e2750d" />
+
+Rod length:
+
+<img width="413" height="391" alt="{7ADF7757-6D76-44C3-9E2A-94BBC2EA63F2}" src="https://github.com/user-attachments/assets/a8f5d37a-6e18-4fe2-bda5-3daf377c146c" />
+
+Base Radius:
+
+<img width="367" height="220" alt="{16644CE8-8193-4C16-9567-7A8AE65D8448}" src="https://github.com/user-attachments/assets/dea46089-aadb-47bf-9c0c-01bafdfa5c0b" />
+
+<img width="409" height="242" alt="{168CA614-B971-422A-B4B4-20F02DB826A6}" src="https://github.com/user-attachments/assets/2e9855af-7d12-488c-ae78-6cb3885957d7" />
+
+Base Radius (outer):
+
+<img width="307" height="308" alt="{52B913E2-7397-4D8C-B3CC-4CA2CCBF47E9}" src="https://github.com/user-attachments/assets/d7ce6dd8-8cc1-487c-b0a1-a53fa2ae6f38" />
+
+Platform Radius:
+
+<img width="601" height="321" alt="{A6326FF2-A38A-445D-87B1-B7B76F02757F}" src="https://github.com/user-attachments/assets/19b48dd3-7902-4bc5-a66a-8a226e381cdb" />
+
+Platform Radius (outer):
+
+<img width="630" height="391" alt="{00A32B14-F5F0-42A4-81A5-427C9D99E484}" src="https://github.com/user-attachments/assets/b0406d7a-98f8-4cf0-9c7d-853a7651199d" />
+
+Shaft Distance:
+
+<img width="614" height="340" alt="{BF8E1D49-5830-47E3-A02E-939B34D53DE6}" src="https://github.com/user-attachments/assets/9cb5975e-de63-4540-9b6f-4003e0dacc36" />
+
+
+Anchor Distance:
+
+<img width="661" height="396" alt="{696FCF2E-CB64-4703-B590-D0A17781D279}" src="https://github.com/user-attachments/assets/51bfdd78-3381-48c8-a979-d103f40d6099" />
+
+Now that I have these measurements, I am going to boot back into Linux where my development environment is, and work on the rest of the programming. I want to make a TKinter control GUI, and basic easy to control kinematics. I plan to also look into how difficult a 3d preview of the movements would be. I also need to write the firmware for the esp32 that it will be controlling. The idea is to have the code run mainly on the laptop, and use the lan to connect to the esp32 and issue the servo angles. All kinematics will be done in the desktop companion app for simplicity.
+
+** Total Time Spent: 1.5 hours **
