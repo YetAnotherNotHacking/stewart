@@ -126,3 +126,12 @@ I also made a bom, this was a few days ago when I was still planning the rough i
 https://docs.google.com/document/d/1bmJ8n-eDoXSdFWSxfQN4pvn6DaG_fgnzeeZT4vmXuGE/edit?usp=sharing
 
 ** Total time spent: 5.9 hours **
+
+# July 5: Working on the top payload, and kinematics/code
+I speant the first 40 minutes today working on the top platform that the plate will be attached to. I still dont know for sure what I am going to do for the plate, it will have to be something transparent to make use cases like bouncing a ping pong ball easier.
+
+<img width="577" height="586" alt="{D2C29C5F-D418-43F5-B01C-BD269D2E2E26}" src="https://github.com/user-attachments/assets/4f85f356-755c-4a4d-8f5d-00aecca3bc61" />
+
+Above is the image of what that looks like in the overall design. I cant decide if I am going to bend the push rods like shown, or if I am going to take advantage of the link things that come in the kit of them. The kit isnt super clear about their size so I dont know how to cad for them without having that. I have a place to either bend the wire or put a bolt, depending on what I end up doing.
+
+** Total Time Spent: 0.75 hours **
