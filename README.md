@@ -35,7 +35,17 @@ The desktop code can be run be downloading all of the python files and running m
 The ESP32's code can be flashed like any other code. See more information at the end of the assembly guide.
 
 ### Bill of Materials:
-You can see the bill of materials [here]([url](https://docs.google.com/spreadsheets/d/1tSShUhzgmsK12tPjXI03KWSomIxZK9p5Zw8UYwgLAco/edit?usp=sharing)). It should be noted that a 12v supply could be substituted for a generic high amperage 5v supply. However, for the amerage needed to run this reliably, I chose 12v. It also allows me to complete another hackclub project with a failed supply.
+You can see the bill of materials [here]([url](https://docs.google.com/spreadsheets/d/1tSShUhzgmsK12tPjXI03KWSomIxZK9p5Zw8UYwgLAco/edit?usp=sharing)). I am purchasing a 12v supply to fix another project, the buck is cheaper than a dedicated high amperage 5v supply. You can achieve the same thing with a 5v supply, with atleast 6 amps. The HackClub grant will not be used to pay for the power supply. This also assumes you have assorted m3 screws lying around, if you do not, add another 9.99 for [these]([url](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0FGV5FCBN)) on Amazon.
+
+| Component | Qty | Unit Price | Total | Link |
+|-----------|----:|-----------:|------:|------|
+| Buck Converter (24V/12V → 5V) | 1 | $9.99 | $9.99 | https://www.amazon.com/HOMELYLIFE-Efficiency-Protection-Automotive-Surveillance/dp/B01M03288J |
+| ESP32 | 1 | $9.99 | $9.99 | https://www.amazon.com/Development-integrates-Bluetooth-Connection-Programming/dp/B0FGHX4JZ7?s=electronics |
+| Servo Controller (PCA9685) | 1 | $8.99 | $8.99 | https://www.amazon.com/EC-Buying-16-Channel-Interface-Expansion/dp/B0GD7BMXHH?s=electronics |
+| Pushrods | 1 | $9.98 | $9.98 | https://www.amazon.com/Adjustable-Pushrod-Connector-Airplane-Aircraft/dp/B086C4Q5RS |
+| MG996R Servos (6-Pack) | 1 | $21.39 | $21.39 | https://www.amazon.com/KEAcvise-Packs-mg996r-servo-Motor/dp/B0FGP9ZPJN |
+| 12V Power Supply | 1 | $14.87 | $14.87 | https://www.ebay.com/itm/177618885952?var=477234645275 |
+| **Total** | **6** |  | **$95.21** | |
 
 ### Adaptation:
 Currently, this platform is more of a kinematics demo then something that solves any real problem. The step files and fusion export for the main assembly are included in the `cad/` folder to allow you to modify this for whatever needs you have. Feel free to use this, its open source and I put no requirements on it.
