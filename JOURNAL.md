@@ -226,7 +226,17 @@ Here is the finished assmebly guide and wiring diagram combo:
 
 https://docs.google.com/presentation/d/1fX6R6pKFSlhVpZevY7VcBayyEp1o772PA0JAKRDqIYo/edit?usp=sharing
 
+Finally, I made an image in sketchpad for the repo banner and forge banner.
+
+<img width="2880" height="1754" alt="{38EFED0E-58FD-4C1D-82DD-88AE67AA784D}" src="https://github.com/user-attachments/assets/6bb6452a-1c89-4a95-89e6-df86fca28339" />
+
+I then put together the readme file, finalized everything to meet the forge shipping requirements, all of this took a little over 30 minutes however I was waiting for a render for part of that time that I will not count. I ended up scrapping that render and using the one from the assembly guide anyway.
+
+<img width="504" height="189" alt="{5F63E4D0-7F8A-474A-ABB6-F0F511B82756}" src="https://github.com/user-attachments/assets/6c8645bf-8227-4db0-9cb7-f7f7680885d3" />
+
+I will now update this journal one final time and submit the project for review!
+
 Hackatime: 
 <img width="140" height="78" alt="2026-07-19_20-33" src="https://github.com/user-attachments/assets/d168e142-2e99-43d6-8902-5cea8a0115b2" />
 
-** Total time spent: 2.2 hours **
+** Total time spent: 2.6 hours **
