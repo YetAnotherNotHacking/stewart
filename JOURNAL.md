@@ -198,3 +198,26 @@ I spent about 2 more hours working on the code for the project, this simple tkin
 Note: yes, it's open in antigravity, but thats bc its the only ide I have configured with everything on this machine (other than FRC VSCode which is missing hackatime). The hackatime project is stewartcontroller, I tried to share it, but it says "anyone with the link can view it" but I litteraly cant find a public link anywhere. The only link I see has /my/ which I know won't work on another machine, if it did, so many duplicates would have to exist. I will assume it being public is enough for whoever is reviewing the project. Lmk if there is anything else that I need to do. I did also get some help with small syntax errors from ChatGPT and other missuses of tkinter, bc honestly this is my first time in a while not just fully vibe coding the interface, I have forgotten most of even the basic stuff unfortunately. I used to be good at this :sob:
 
 ** Total Time Spent: 3.5 hours **
+
+# July 19: Finishing code, finalizing for ship
+After finishing getting distracted by the FTC premier event and working on a new drivebase for next year, I finally have gone back to this project to get it finished and out of the way. I also need the 12v supply this project will fund over other things, so I am trying to get this shipped asap. I know Forge is against AI firmware, but I dont really know cpp so I had to get some help from gemini. I used it to assist with basic usage of the apis I needed to host a wireless network and parse json in order to control this project effectively.
+
+I ended up finishing it up, and it looks something like this:
+
+<img width="910" height="318" alt="2026-07-19_20-15" src="https://github.com/user-attachments/assets/a2dedd41-e7a8-4378-bf11-031b556905c8" />
+
+Litteraly just accepting a json object of the positions and sending the pwm signal to each of the servos in order to set their position.
+
+I also had some assistance from gemini in order to create a visualization of the platform:
+
+<img width="1446" height="1274" alt="2026-07-19_20-19" src="https://github.com/user-attachments/assets/27fbdd24-c77a-4db8-9fc2-adbb0edfcb34" />
+
+I have kept it so that the code is less than 30% written by ai, though of the 70% of my code about 50% of it was written with assistance (asking how to use apis in context, but implemnting myself) (all of this is just as a disclosure)
+
+I will now boot back into windows and begin work on assembly, wiring, and other finalization to meet the requirements. I will also copy the code from the other repository that I made accidentally to here.
+
+
+Hackatime: 
+<img width="140" height="78" alt="2026-07-19_20-33" src="https://github.com/user-attachments/assets/d168e142-2e99-43d6-8902-5cea8a0115b2" />
+
+** Total time spent: 0.6 hours **
