@@ -222,8 +222,11 @@ I have made the bom.csv (above). it should be noted that the 12v and buck are ne
 
 I have also exported all of the cad in the requested format as well as stl for easier printing of the project. Its all in the `cad/` folder of the repo. I will next complete the assembly guides and wiring diagrams.
 
+Here is the finished assmebly guide and wiring diagram combo:
+
+https://docs.google.com/presentation/d/1fX6R6pKFSlhVpZevY7VcBayyEp1o772PA0JAKRDqIYo/edit?usp=sharing
 
 Hackatime: 
 <img width="140" height="78" alt="2026-07-19_20-33" src="https://github.com/user-attachments/assets/d168e142-2e99-43d6-8902-5cea8a0115b2" />
 
-** Total time spent: 1.1 hours **
+** Total time spent: 2.2 hours **
