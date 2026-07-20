@@ -216,8 +216,14 @@ I have kept it so that the code is less than 30% written by ai, though of the 70
 
 I will now boot back into windows and begin work on assembly, wiring, and other finalization to meet the requirements. I will also copy the code from the other repository that I made accidentally to here.
 
+<img width="927" height="158" alt="{FB7F5493-3F80-4C67-B9E0-88EF0DA67D7C}" src="https://github.com/user-attachments/assets/61f05b40-1754-431d-b7f8-36a9cf7a3eb9" />
+
+I have made the bom.csv (above). it should be noted that the 12v and buck are nessecary rather than just a 5v, as the power supply is needed to save another Forge project I can't complete since the power supply unfortunately was fried. (This is to fix Potatomatic)
+
+I have also exported all of the cad in the requested format as well as stl for easier printing of the project. Its all in the `cad/` folder of the repo. I will next complete the assembly guides and wiring diagrams.
+
 
 Hackatime: 
 <img width="140" height="78" alt="2026-07-19_20-33" src="https://github.com/user-attachments/assets/d168e142-2e99-43d6-8902-5cea8a0115b2" />
 
-** Total time spent: 0.6 hours **
+** Total time spent: 1.1 hours **
